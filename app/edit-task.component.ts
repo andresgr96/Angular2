@@ -13,7 +13,7 @@ import { Task } from './task.model';
       <div>
         <label>Enter Task ID:</label>
         <input [(ngModel)]="childSelectedTask.id">
-        <button (click)="finishedEditing()">Done</button>
+        <button (click)="doneClicked()">Done</button>
       </div>
     </div>
   `
